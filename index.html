@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<title>Complete dark</title>
+		<script src="script.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<div id="menu">
+			<table class="td_border">
+				<tr class="td_border">
+					<td class="title td_border" onClick="main_menu">Dark</td>
+					<td class="td_border"><button class="tablinks" onclick="open_tab(event, 'main_tab')">Lone dark</button></td>
+					<td class="td_border"><a class="menu" target="_blank" href="update.html">Updatelog</a>
+					<td class="td_border"><p><span id="temp">0</span>°C</p></td>
+					<td class="td_border"><p id="info_box"></p></td>
+				</tr>
+			</table>
+		</div>
+		<div id="main_tab" class="tabcontent">
+			<p>You see <span id="light">0</span> light particles shining around you.</p>
+			<table>
+				<tr>
+					<td colspan="2">
+						<button class="work_button" onclick="elements()">Squeeze</button>
+					</td>
+				</tr>
+				<tr><td class="taller_text">Dirt</td><td id="dirt">0</td></tr>
+				<tr><td class="taller_text">Water</td><td id="water">0</td></tr>
+				<tr><td class="taller_text">Air</td><td id="air">0</td></tr>
+			</table>
+		</div>
+	</body>
+</html>

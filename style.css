@@ -1,0 +1,103 @@
+body {
+	background-color: #000000;
+	color: white;
+}
+.menu {
+	font-size: 25px;
+	position: relative;
+	bottom: 0;
+	color: gray;
+	text-decoration: none;
+	transition-duration: 0.2s;
+}
+.menu:hover {
+	font-size: 25px;
+	position: relative;
+	bottom: 0;
+	color: white;
+	text-decoration: none;
+	transition-duration: 0.6s;
+}
+.td_border {
+	border: none !important;
+}
+#menu {
+	height: 60px;
+	width: 100%;
+	border: 1px solid white;
+}
+.title {
+	font-size: 50px;
+	text-decoration: underline;
+	color: gray;
+	transition-duration: 0.2s;
+}
+.title:hover {
+	color: white;
+	transition-duration: 0.6s;
+}
+div.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 4px double black;
+    border-top: none;
+}
+.tablinks {
+    border: none;
+    color: gray;
+	background-color: #000000;
+    padding: 6px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+	transition-duration: 0.6s;
+}
+.tablinks:hover {
+    border: none;
+    color: black;
+	background-color: #FFFFFF;
+    padding: 6px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+}
+#info_box {
+	padding-left: 20px;
+	transition-duration: 1s
+}
+.taller_text {
+	font-size: 20px;
+}
+table, tr, th, td {
+	border: 1px solid white;
+	text-align: center;
+}
+.work_button {
+    border: none;
+    color: white;
+	background-color: #111111;
+    padding: 6px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+	transition-duration: 0.3s;
+}
+.work_button:hover {
+	resize: horizontal;
+	border: none;
+    color: white;
+	background-color: #333333;
+    padding: 6px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+}
