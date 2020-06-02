@@ -25,6 +25,7 @@ body {
 	height: 60px;
 	width: 100%;
 	border: 1px solid white;
+	background-color: black;
 }
 .title {
 	font-size: 50px;
@@ -36,15 +37,10 @@ body {
 	color: white;
 	transition-duration: 0.6s;
 }
-div.tab {
-    overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
-}
 .tabcontent {
     display: none;
     padding: 6px 12px;
-    border: 4px double black;
+    border: 4px double white;
     border-top: none;
 }
 .tablinks {
@@ -70,7 +66,8 @@ div.tab {
 }
 #info_box {
 	padding-left: 20px;
-	transition-duration: 1s
+	transition-duration: 1s;
+	font-size: 15px;
 }
 .taller_text {
 	font-size: 20px;
@@ -100,4 +97,10 @@ table, tr, th, td {
     text-decoration: none;
     display: inline-block;
     font-size: 22px;
+}
+#background {
+	transition-duration: 2s;
+}
+#planet {
+	display: none;
 }
